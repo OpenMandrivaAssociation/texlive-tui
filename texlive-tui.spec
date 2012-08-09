@@ -1,11 +1,11 @@
-# revision 25619
+# revision 27253
 # category Package
 # catalog-ctan /macros/latex/contrib/tui
-# catalog-date 2012-03-12 17:46:43 +0100
+# catalog-date 2012-07-30 18:08:41 +0200
 # catalog-license lppl
-# catalog-version 1.8
+# catalog-version 1.9
 Name:		texlive-tui
-Version:	1.8
+Version:	1.9
 Release:	1
 Summary:	Thesis style for the University of the Andes, Colombia
 Group:		Publishing
@@ -52,7 +52,6 @@ doctorales para ingenieria, Universidad de los Andes, Bogota.
 %doc %{_texmfdistdir}/doc/latex/tui/example/intro.tex
 %doc %{_texmfdistdir}/doc/latex/tui/example/lipsum.tex
 %doc %{_texmfdistdir}/doc/latex/tui/example/listofsymbols.tex
-%doc %{_texmfdistdir}/doc/latex/tui/example/main.pdf
 %doc %{_texmfdistdir}/doc/latex/tui/example/main.tex
 %doc %{_texmfdistdir}/doc/latex/tui/example/plegal.tex
 %doc %{_texmfdistdir}/doc/latex/tui/example/portada.tex

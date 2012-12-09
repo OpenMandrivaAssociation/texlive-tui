@@ -82,3 +82,15 @@ doctorales para ingenieria, Universidad de los Andes, Bogota.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Thu Aug 09 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.9-1
++ Revision: 813133
+- Update to latest release.
+
+* Tue Mar 27 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.8-1
++ Revision: 787808
+- Import texlive-tui
+- Import texlive-tui
+

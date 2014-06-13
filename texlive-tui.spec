@@ -6,7 +6,7 @@
 # catalog-version 1.9
 Name:		texlive-tui
 Version:	1.9
-Release:	5
+Release:	6
 Summary:	Thesis style for the University of the Andes, Colombia
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/tui

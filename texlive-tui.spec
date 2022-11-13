@@ -1,18 +1,12 @@
-# revision 27253
-# category Package
-# catalog-ctan /macros/latex/contrib/tui
-# catalog-date 2012-07-30 18:08:41 +0200
-# catalog-license lppl
-# catalog-version 1.9
 Name:		texlive-tui
-Version:	1.9
-Release:	10
+Version:	27253
+Release:	1
 Summary:	Thesis style for the University of the Andes, Colombia
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/tui
 License:	LPPL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/tui.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/tui.doc.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/tui.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/tui.doc.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -25,12 +19,12 @@ implemented as an extension of the memoir class. Clase de Tesis
 doctorales para ingenieria, Universidad de los Andes, Bogota.
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
@@ -75,22 +69,10 @@ doctorales para ingenieria, Universidad de los Andes, Bogota.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1
+%autosetup -p1 -c -a1
 
 %build
 
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Thu Aug 09 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.9-1
-+ Revision: 813133
-- Update to latest release.
-
-* Tue Mar 27 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.8-1
-+ Revision: 787808
-- Import texlive-tui
-- Import texlive-tui
-

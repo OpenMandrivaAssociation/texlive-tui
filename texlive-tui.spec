@@ -1,6 +1,6 @@
 Name:		texlive-tui
 Version:	27253
-Release:	1
+Release:	2
 Summary:	Thesis style for the University of the Andes, Colombia
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/tui

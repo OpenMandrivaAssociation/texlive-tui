@@ -3,7 +3,7 @@ Version:	27253
 Release:	2
 Summary:	Thesis style for the University of the Andes, Colombia
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/tui
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/tui
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/tui.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/tui.doc.r%{version}.tar.xz
